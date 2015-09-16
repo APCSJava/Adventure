@@ -15,18 +15,28 @@ public class OOPResource{
   // Properties 
   // The attributes (data) associated with each instance  (i.e. STATE)
   // Typically, a listing of private variable declarations
-  // Used to 
+  private String sampleString;
   
   // Constructors
   // Instructions for initializing a new instance
   // Responsible for setting initial STATE
   // A default, no-argument constructor is inserted by Java iff no constructor explicitly provided
+  public OOPResource(){
+    sampleString = "Initial value";
+  }
   
   // Methods
   // Specifications for what each instance "can do"  (i.e. BEHAVIOR)
   // Typically, a listing of public accessors and mutators (getters and setters)
-  // Used to interact with an instance
+  // Used by outside classes to interact with each instance
+  
+  // A data getter
+  public String getSampleString(){
+    return sampleString;
+  }
 
-
-
+  // A data setter
+  public void setSampleString(String s) {
+    sampleString = s;
+  }
 }
