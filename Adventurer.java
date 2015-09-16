@@ -1,7 +1,7 @@
 /**
 * Represents an adventurer in a first person adventure role playing game
 *
-* Provided as an example of an OOP Resource class
+* Provided as a template for designing an OOP resource class
 */
 
 public class Adventurer {
